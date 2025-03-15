@@ -6,6 +6,7 @@ from io import BytesIO
 
 st.set_page_config(layout="wide",page_title="Image Background Remover", page_icon="📷" )
 
+
 st.write("# 📸Image Background Remover📷")
 st.markdown("\n")
 st.markdown("\n")
