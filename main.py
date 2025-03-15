@@ -1,6 +1,6 @@
 import time
 import streamlit as st
-from rembg import remove 
+import rembg as remove 
 from PIL import Image
 from io import BytesIO
 
