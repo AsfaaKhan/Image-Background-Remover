@@ -2,12 +2,13 @@ import time
 import streamlit as st
 from PIL import Image
 from io import BytesIO
-try:
-    from rembg import remove 
-except ModuleNotFoundError:
-    import os
-    os.system("pip install rembg")
-    from rembg import remove
+from rembg import remove
+# try:
+#     from rembg import remove 
+# except ModuleNotFoundError:
+#     import os
+#     os.system("pip install rembg")
+#     from rembg import remove
 
 
 st.set_page_config(layout="wide",page_title="Image Background Remover", page_icon="📷" )
